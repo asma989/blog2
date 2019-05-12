@@ -24,6 +24,7 @@
 						<li><a href="Evaluation of student.html"><i class="fas fa-list-ol"></i><span>   أخذ التقييم للطلاب   </span></a></li>
 						<li><a href="Student_ presence.html"><i class="fas fa-tasks"></i><span>   أخذ الحضور للطلاب   </span></a></li>
 						<li><a href="insert_Q.html"><i class="fas fa-question"></i><span>      اختبارات تحديد المستوى   </span></a></li>
+						<li><a href="recive_mssg_student.html"><i class="fas fa-envelope"></i><span>        استقبال رسالة   </span></a></li>
 
 						<!--                          task  coach                  -->
 

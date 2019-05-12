@@ -94,6 +94,9 @@ Route::get('/Evaluation of student.html', function () {
 Route::get('/Student_ presence.html', function () {
   return view('coach.Student_ presence');
 });
+Route::get('/recive_mssg_student.html', function () {
+  return view('coach.recive_mssg_student');
+});
 Route::get('/insert_Q.html', function () {
   return view('coach.insert_Q');
 });

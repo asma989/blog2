@@ -1,8 +1,6 @@
 @extends('layout.app')
 @section('content')
   
-   
-   
 <!--inner block start here-->
                    <div  dir="rtl" lang="ar" class="alert alert-info" style="text-align: center;"><p><strong><i>
 						                 جدول تفييم الطلاب لمادة ال icdl 

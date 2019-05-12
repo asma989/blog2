@@ -8,9 +8,6 @@
                         
 						<form action ="">
 
-
-
-
                                <div class="row">
                                      <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>  الرقم :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
                                </div>

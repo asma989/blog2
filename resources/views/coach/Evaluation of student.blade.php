@@ -26,10 +26,10 @@
                            </tr>
 
                            <tr>
-                            <th  style=" background-color:#ffbf80;text-align: center;padding: 8px;"> طارق السكران </th>
-                            <th  style=" background-color: #ffbf80;text-align: center;padding: 8px;"> <input  dir="rtl" lang="ar" type="text"  value=""   size="3">  </th>
-                            <th  style=" background-color: #ffbf80;text-align: center;padding: 8px;"><input type="radio" name="time" value="v1"></th>
-                            <th  style=" background-color:#ffbf80;text-align: center;padding: 8px;"><input type="radio" name="time" value="v2"></th>
+                            <th  style=" background-color:#e68a00;text-align: center;padding: 8px;"> طارق السكران </th>
+                            <th  style=" background-color: #e68a00;text-align: center;padding: 8px;"> <input  dir="rtl" lang="ar" type="text"  value=""   size="3">  </th>
+                            <th  style=" background-color: #e68a00;text-align: center;padding: 8px;"><input type="radio" name="time" value="v1"></th>
+                            <th  style=" background-color:#e68a00;text-align: center;padding: 8px;"><input type="radio" name="time" value="v2"></th>
                             <th  style=" background-color: #e68a00;text-align: center;padding: 8px;"><input type="radio" name="marke" value="1"></th>
                             <th  style=" background-color: #e68a00;text-align: center;padding: 8px;"><input type="radio" name="marke" value="2"></th>
                             <th  style=" background-color: #e68a00;text-align: center;padding: 8px;"><input type="radio" name="marke" value="3"></th>

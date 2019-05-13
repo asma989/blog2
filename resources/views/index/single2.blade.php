@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -20,41 +19,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/jquery-1.11.0.min.js"></script>
 
 <style>
-
- /* The container */
- .container1 {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-	user-select: none;
- }
-
- /* Create a custom checkbox */
- .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
- }
- th, td {
-										text-align: right;
-										padding: 8px;
-										
-									}
-									
-									tr:nth-child(even){
-										text-align: right;
-										
-										background-color: #f2f2f2 ;}
-									
 	.myfontd {
   border-right: 6px solid #68AE00;
   background-color: rgba(206, 250, 141, 0.712);
@@ -85,9 +49,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								
 								<h5 class="fast" dir="rtl" lang="ar"  > تفاصيل الدورة و شروطها :</h5>
 							    <br>
-								<p class="sed2">دورة  المحاسبة  دورة تهتم بقواعد للغة ومهاراتها الكتابية واللفظية و المحادثة تنقسم هذه الدورة إالى مستوايات يخضع الطالب لامتحان 
-								تحديد مستوى و الطالب الذي ينجح بمستوى ينتقل اتوماتيكيا إلى المستوى الاعلى 
-					       </p>
+								<p dir="rtl" lang="ar"  class="sed2"><strong>       
+								دورة المحاسبة مؤلفة من مستوى واحد تهتم باساس المحاسبة و التعلم على برامج المحاسبة
+					       </strong></p>
 								 <div class="col-md-5 event-text">
 								  
 								 <br>
@@ -98,62 +62,116 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									   <h2 dir="rtl" lang="ar" >  استمارة التسجيل </h2>
 								      <div  dir="rtl"  class="col-md-12  md-in">
                                            
-                                      <form action ="">
-				                       	      <input  dir="rtl" lang="ar" type="text"  value="  التاريخ  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' التاريخ  ';}"> 
-					
-								              <input  dir="rtl" lang="ar" type="text"  value="  الرمز  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' الرمز  ';}"> 
-								               <label class="container1" >مهجر
-                                              <input type="checkbox" checked="checked">
+<form action ="">
+                                       
+									                    <div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>  الرمز :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                                      </div>
+																			<div class="row">
+                                        <div class="row">
+	                                         	<div dir="rtl" lang="ar" class="col-md-7 compose-right" >  <p  style="color:#4CAF50;" ><strong><i>التاريخ:  <i><strong></p><input  dir="rtl" lang="ar" id="date"  type="date"  value="YYYY-MM-DD"  > </div> 
+			                                	</div>                        
+                                      </div> 
+																			<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>  الاسم الثلاثي :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                                      </div>  
+																			<div class="row"> 
+																		   	<div dir="rtl" lang="ar" class="col-md-12 compose-right" > 
+																	        	<label class="container1" >مهجر
+                                              <input type="checkbox" >
                                                 <span class="checkmark"></span>
-											         </label>
-											  
-													
+											                      </label>
+																				</div>		
+																			</div>			
 									                  </div>
-												<input  dir="rtl" lang="ar" type="text"  value="  الاسم الثلاثي  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' الاسم الثلاثي  ';}"> 
-                        <input  dir="rtl" lang="ar" type="text"  value="  مكان  وتاريخ الولادة  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' مكان و تاريخ الولادة  ';}"> 
-												 <input  dir="rtl" lang="ar" type="text"  value="   الجنس  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '  الجنس  ';}"> 
-												 <input  dir="rtl" lang="ar" type="text"  value="  اسم الأم  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' اسم  الأم  ';}"> 
-												 <input  dir="rtl" lang="ar" type="text"  value="   الجنسية  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '  الجنسية  ';}"> 
-												 <input  dir="rtl" lang="ar" type="text"  value="  الرقم الوطني  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' الرقم  الوطني  ';}"> 
-												 <input  dir="rtl" lang="ar" type="text"  value="  رقم  الأرضي  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' رقم  الأرضي  ';}"> 
-												 <input  dir="rtl" lang="ar" type="text"  value="  رقم الموبايل  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' رقم  الموبايل  ';}"> 
-												 
-												  <div class="row" style="background-color:#a2b040;">
-																
-																<div dir="rtl" lang="ar" class="col-md-2 md-in" >  أخرى<input  type="radio" name="q6" value="0"> </div>
-																<div  dir="rtl" lang="ar" class="col-md-2 md-in" >إيواء<input  type="radio" name="q6" value="0"> </div>
-																<div  dir="rtl" lang="ar" class="col-md-2 md-in" >ملك<input  type="radio" name="q6" value="0"> </div>
-																<div  dir="rtl" lang="ar" class="col-md-2 md-in" >أجار<input  type="radio" name="q6" value="0"> </div>
-																<div  dir="rtl" lang="ar" class="col-md-3 md-in" >    نوع السكن </div>
-								              	</div> 
+																	 
+																			<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>  مكان الولادة :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                                      </div>   
+																			<div class="row">
+                                        <div class="row">
+	                                         	<div dir="rtl" lang="ar" class="col-md-7 compose-right" >  <p  style="color:#4CAF50;" ><strong><i>تاريخ الولادة:  <i><strong></p><input  dir="rtl" lang="ar" id="date"  type="date"  value="YYYY-MM-DD"  > </div> 
+			                                	</div>                        
+                                      </div>        
+																			<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   الجنس :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                                      </div>	
+																			<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   اسم الأم :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                                      </div>
+																			<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   الجنسية :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                                      </div>
+																			<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   الرقم الوطني :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                                      </div>
+																			<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   رقم الأرضي :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                                      </div>
+																			<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   رقم الموبايل :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                                      </div>
+																			<P dir="rtl" lang="ar" class="myfontd">نوع السكن:  <BR>
+                                             <input type="radio" name="q1" value="a1">  أجار<BR>
+                                             <input type="radio" name="q1" value="a2"> ملك <BR>
+                                             <input type="radio" name="q1" value="a3"> إيواء<BR>
+																						 <input type="radio" name="q1" value="a3"> أخرى<BR>
+                                      </p>
 												<br>
-												<input  dir="rtl" lang="ar" type="text"  value="  عنوان السكن الحالي  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' عنوان  السكن الحالي  ';}"> 
-												<input  dir="rtl" lang="ar" type="text"  value="  عنوان السكن السابق  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' عنوان  السكن السابق   ';}"> 
-												<input  dir="rtl" lang="ar" type="text"  value="  الوضع الجسدي  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' الوضع  الجسدي  ';}"> 
-												<input  dir="rtl" lang="ar" type="text"  value="  الحالة الاجتماعية  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' الحالة الاجتماعية    ';}"> 
-												<div class="row" style="background-color:#a2b040;">
-																<div  dir="rtl" lang="ar" class="col-md-4 md-in" >لا<input  type="radio" name="q6" value="0"> </div>
-																<div  dir="rtl" lang="ar" class="col-md-4 md-in" >نعم<input  type="radio" name="q6" value="0"> </div>
-																<div  dir="rtl" lang="ar" class="col-md-3 md-in" >     هل تتابع تعليمك؟ </div>
-								              	</div> 
+												<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>  عنوان  السكن الحالي :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                        </div>  
+                                                     
+												<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   عنوان السكن السابق :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                        </div>  
+                           
+												<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   الوضع الجسدي :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                        </div>  		  
+                        
+												<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   الحالة الاجتماعية :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                        </div>  
+
+												<P dir="rtl" lang="ar" class="myfontd"> هل تتابع تعليمك:  <BR>
+                                             <input type="radio" name="q2" value="a1">  نعم <BR>
+                                             <input type="radio" name="q2" value="a2">  لا<BR>
+                        </p><br>
+                        <div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   المؤهل الدراسي :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                        </div>
+
 												<br>
-												<input  dir="rtl" lang="ar" type="text"  value="  المؤهل الدراسي  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' المؤهل الدراسي    ';}"> 
-												<br>
-												<div class="row" style="background-color:#a2b040;">
-																<div  dir="rtl" lang="ar" class="col-md-4 md-in" >لا<input  type="radio" name="q6" value="0"> </div>
-																<div  dir="rtl" lang="ar" class="col-md-4 md-in" >نعم<input  type="radio" name="q6" value="0"> </div>
-																<div  dir="rtl" lang="ar" class="col-md-3 md-in" >     هل لديك عمل؟ </div>
-																</div>
+												<P dir="rtl" lang="ar" class="myfontd"> هل لديك عمل:  <BR>
+                                             <input type="radio" name="q3" value="a1">  نعم <BR>
+                                             <input type="radio" name="q3" value="a2">  لا<BR>
+                        </p><br>
 																<br>
 													<!-- شرط ظهور زر المهنة -->
 													
-													        <input  dir="rtl" lang="ar" type="text"  value="  المهنة   :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '  المهنة    ';}">  
-												    
-												</tr>
-												<input  dir="rtl" lang="ar" type="text"  value="  من هو المعيل في أسرتك  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '  من هو المعيل في أسرتك    ';}"> 
-												<input  dir="rtl" lang="ar" type="text"  value="      عدد أفراد الأسرة  :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '    عدد أفراد الأسرة      ';}"> 
-												<input  dir="rtl" lang="ar" type="text"  value="    الذكور    :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '        الذكور  ';}"> 
-												<input  dir="rtl" lang="ar" type="text"  value="     الإناث   :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '     الإناث     ';}"> 
+													<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   المهنة  :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                        </div>												    
+										
+												<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   من هو المعيل في أسرتك  :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                        </div>	
+												<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   عدد أفراد الأسرة  :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                        </div>			
+
+													<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   الذكور  :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                        </div>
+												<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   الإناث  :<i><strong></p>  <input  dir="rtl" lang="ar" type="text"  value="" >  </div>
+                        </div>
+												<div class="row">
+                                        <div dir="rtl" lang="ar" class="col-md-12 compose-right" ><p  style="color:#4CAF50;" ><strong><i>   البريد الالكتروني  :<i><strong></p>  <input  dir="rtl" lang="ar" type="text" class="email" placeholder="البريد الالكتروني" name="Email">   </div>
+                        </div>
+												
+
 												<br> 
                                     <p  dir="rtl" lang="ar" class="myfontd" >       ما هي الدورات التي ترغب بتسجيلها؟     :   </p>
                                     <br>
@@ -161,47 +179,58 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					                           <!-- ////////////////////////////////////////////-->
 																		 <p class="myfontd">  جدول معلومات أفراد الأسرة </p>
 																		 <br>
-																		 <div id="education_fields">
+																		 <div>
+                                        <div id="requirements_fields">
           
 				                              </div>
-				                             <div class="col-md-12  md-in">
-	                                     	<div class="form-group">
-		                                      	<input type="text"  dir="rtl" lang="ar"class="form-control" id="tripplname" name="tripplname[]" value="" placeholder="الاسم الثلاثي">
+													                <div class="col-md-8 compose-right"><p dir="rtl" lang="ar" class="myfontd" > الأفراد </p ></div>
+				                             <div class="col-md-8 compose-right">
+	                                     	<div>
+		                                      	<input type="text"  dir="rtl" lang="ar" id="number" name="number[]" value="" placeholder=" الاسم الثلاثي">
 		                                    </div>
 	                                   </div>
-                                     <div class="col-md-12  md-in">
-	                                     	<div class="form-group">
-		                                      	<input type="text"  dir="rtl" lang="ar"class="form-control" id="birthdaydate" name="birthdaydate[]" value="" placeholder=" تاريخ الولادة">
+                                     <div class="col-md-8 compose-right">
+	                                     	<div >
+		                                      	<input type="text"  dir="rtl" lang="ar" id="Category" name="Category[]" value="" placeholder="   تاريخ الولادة">
 		                                    </div>
 	                                   </div>
-																		 <div class="col-md-12  md-in">
-	                                     	<div class="form-group">
-		                                      	<input type="text"  dir="rtl" lang="ar"class="form-control" id="qaraba" name="qaraba[]" value="" placeholder=" صلة القرابة  ">
+																		 <div class="col-md-8 compose-right">
+	                                     	<div >
+		                                      	<input type="text"  dir="rtl" lang="ar" id="Quantity" name="Quantity[]" value="" placeholder="  صلة القرابة  ">
 		                                    </div>
 	                                   </div>
-																		 <div class="col-md-12  md-in">
-	                                     	<div class="form-group">
-		                                      	<input type="text"  dir="rtl" lang="ar"class="form-control" id="state" name="state[]" value="" placeholder=" الحالة ">
+																		 <div class="col-md-8 compose-right">
+	                                     	<div >
+		                                      	<input type="text"  dir="rtl" lang="ar" id="Notes" name="Notes[]" value="" placeholder=" الحالة ">
 		                                    </div>
 	                                   </div>
-																		 <div class="col-md-12  md-in">
-	                                     	<div class="form-group">
-		                                      	<input type="text"  dir="rtl" lang="ar"class="form-control" id="work" name="work[]" value="" placeholder=" العمل  ">
+																		 <div class="col-md-8 compose-right">
+	                                     	<div >
+		                                      	<input type="text"  dir="rtl" lang="ar" id="Notes" name="Notes[]" value="" placeholder=" العمل ">
 		                                    </div>
 	                                   </div>
-																		 <div class="col-md-12  md-in">
-	                                     	<div class="form-group">
-		                                      	<input type="text"  dir="rtl" lang="ar"class="form-control" id="numberphone" name="numberphone[]" value="" placeholder="  رقم الهاتف/الموبايل">
-											  <div class="input-group-btn">
-                                              <button class="btn btn-success" type="button"  onclick="education_fields();"><span class="glyphicon glyphicon-plus" aria-hidden="true">أنقر لإضافة فرد جديد</span> </button>
-                                             </div>
+																		 <div class="col-md-8 compose-right">
+	                                     	<div >
+		                                      	<input type="text"  dir="rtl" lang="ar" id="Approximateprice" name="Approximateprice[]" value="" placeholder="  رقم الهاتف الموبايل  ">
 		                                    </div>
 	                                   </div>
-										<div class="clear"></div>
-  
-                                      </div>	
-
-									<input  type="submit" value="إرسال " >
+																		 <div class="col-md-8 compose-right">
+																						<div class="input-group-btn">
+                                             
+																					 <button class="btn btn-success" type="button"  onclick="requirements_fields();"><span class="glyphicon glyphicon-plus" aria-hidden="true">أنقر لإضافة فرد جديد</span> </button>
+                  
+																						 </div>
+                                             <br>
+		                                    </div>
+	                                </div>
+                                     
+																		 <div class="clear"></div>
+                                     <script src="{{asset('public2/js4/single2.js')}}"></script>
+																			
+														 <div class="col-md-9 compose-left">  	
+								              <input  type="submit" class="btn btn-success" value="إرسال " >
+															</div>
+																		
 </form>
 					        	</div >
 						<div class="col-md-6 md-in">
